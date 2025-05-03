@@ -1,0 +1,37 @@
+{
+	"description": "The CodeIgniter framework starter kit",
+	"name": "anwarsptr/codeigniter-3-starter-kit",
+	"type": "project",
+	"homepage": "https://codeigniter.com",
+	"license": "MIT",
+	"support": {
+		"forum": "http://forum.codeigniter.com/",
+		"wiki": "https://github.com/bcit-ci/CodeIgniter/wiki",
+		"slack": "https://codeigniterchat.slack.com",
+		"source": "https://github.com/bcit-ci/CodeIgniter",
+		"codeigniter 3 starter kit": "https://github.com/anwarsptr/codeigniter-3-starter-kit"
+	},
+	"require": {
+		"php": ">=5.3.7 & < 8.2",
+        "vlucas/phpdotenv": "^5.6"
+	},
+	"scripts": {
+        "serve": "php serve.php || exit 0",
+        "serve-py": "python run.py",
+        "serve-bat": "run.bat",
+		"test:coverage": [
+			"@putenv XDEBUG_MODE=coverage",
+			"phpunit --color=always --coverage-text --configuration tests/travis/sqlite.phpunit.xml"
+		],
+		"post-install-cmd": [
+			"sed -i s/name{0}/name[0]/ vendor/mikey179/vfsstream/src/main/php/org/bovigo/vfs/vfsStream.php"
+		],
+		"post-update-cmd": [
+			"sed -i s/name{0}/name[0]/ vendor/mikey179/vfsstream/src/main/php/org/bovigo/vfs/vfsStream.php"
+		]
+	},
+	"require-dev": {
+		"mikey179/vfsstream": "1.6.*",
+		"phpunit/phpunit": "4.* || 5.* || 9.*"
+	}
+}
