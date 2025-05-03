@@ -24,7 +24,7 @@ Take a look at how the app works in action! <br/>
 
 ## 🔧 Requirements
 
-- PHP 8.2+
+- PHP >=5.3.7 & < 8.2
 - MySQL 5.7+ or MariaDB 10.6+
 - Composer 2.8+
 
