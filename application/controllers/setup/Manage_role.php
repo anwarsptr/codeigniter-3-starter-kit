@@ -23,7 +23,7 @@ class Manage_role extends CI_Controller {
 
     public function role_access($id_ori='') {
         $id = decode($id_ori);
-        $roles = get_field('roles', ["id=$id"]);
+        $roles = get_field('roles', ["id"=>$id]);
         if (empty($roles)) { redirect('404'); }
 
         $showAccess = checkPermission("setup-manage-role-edit-access", true);

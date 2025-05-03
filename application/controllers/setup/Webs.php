@@ -8,7 +8,7 @@ class Webs extends CI_Controller {
     }
 
     public function index() {
-        $query = get_field('setup_webs', "id=1");
+        $query = get_field('setup_webs', ["id"=>1]);
         $data = [
   				'title' => "Setup Webs",
   				'showPermission' => checkPermission("setup-website-edit", true),
