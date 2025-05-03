@@ -15,7 +15,7 @@ Thank you so much for your support! 🙏
 
 ## 🎯 Live Demo
 Take a look at how the app works in action! <br/>
- 👉 <a href="https://demo.pustakakreatif.com/github/php-native-starter-kit" target="_blank" rel="noopener noreferrer">🌐 Demo CodeIgniter 3 Starter Kit</a> <br/><br/>
+ 👉 <a href="https://demo.pustakakreatif.com/github/codeigniter-3-starter-kit" target="_blank" rel="noopener noreferrer">🌐 Demo CodeIgniter 3 Starter Kit</a> <br/><br/>
  🔐 Login Account :
   - username : `admin`
   - password : `admin`
@@ -47,8 +47,8 @@ Take a look at how the app works in action! <br/>
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/anwarsptr/php-native-starter-kit
-cd php-native-starter-kit
+git clone https://github.com/anwarsptr/codeigniter-3-starter-kit
+cd codeigniter-3-starter-kit
 ```
 
 2. Install dependencies:
