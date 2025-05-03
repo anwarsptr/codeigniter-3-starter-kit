@@ -1,6 +1,6 @@
 ## 🙌 Support & Donations
 
-**CodeIgniter 3 Starter Kit** is an open-source project aimed at helping developers kickstart PHP application development quickly, cleanly, and in a well-structured manner — all without a framework.
+**CodeIgniter 3 Starter Kit** is an open-source project designed to help developers kickstart PHP application development using CodeIgniter 3—quickly, cleanly, and with a well-structured foundation.
 
 If you find this project helpful and would like to support its ongoing development, you can show your appreciation through a donation. Your support means a lot and helps keep the project alive and growing!
 
